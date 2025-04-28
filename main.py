@@ -5,7 +5,7 @@ from utils import select_directory
 def main():
     directory = select_directory()
     if not directory:
-        print("Выбор директории отмененный 2")
+        print("Выбор директории отмененный 3")
         return
 
     print(f"Файлов в директории: {TrafficData.count_files(directory)}")
